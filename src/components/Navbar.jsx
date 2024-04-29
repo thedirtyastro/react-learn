@@ -23,13 +23,13 @@ const Navbar = () => {
         {navItems.map((item, index) => (
           <li
           key={index}
-          className={`cursor-pointer ${selectedItem === item.label ? 'text-gray-500' : ''}`}
+          className={`cursor-pointer ${selectedItem === item.label ? 'text-white text-opacity-30' : ''}`}
           onClick={() => handleItemClick(item.label)}
         >
             {item.label}
           </li>
         ))}
-        <li>
+        <li >
           <FontAwesomeIcon icon={faDribbble} />
         </li>
         <li>

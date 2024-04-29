@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       colors : {
         'primary' : '#2F1893',
+      },
+      fontFamily : {
+        body : ['DM Sans']
       }
     },
   },
